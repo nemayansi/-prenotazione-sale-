@@ -1,6 +1,6 @@
 import unittest
-from datetime import date, timedelta
-from prenotazioni import Prenotazione, GIORNO_CHIUSURA, DataNonAmmessa, Agenda, Sala
+from datetime import date
+from prenotazioni import Prenotazione
 
 class TestPrenotazioni(unittest.TestCase):
     def test_orari_non_ammessi(self):
